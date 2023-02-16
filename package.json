@@ -25,7 +25,7 @@
     "eslint-config-next": "12.0.7"
   },
   "engines": {
-    "node": "18.10.0",
+    "node": "18.12.1",
     "npm": "8.19.2"
   },
   "description": "<p align=\"center\">   <a href=\"https://directprivateoffers.ca/\" target=\"blank\"><img src=\"./public/assets/images/directprivateoffers-logo-bd.png\" width=\"320\" alt=\"J&D Landscaping Logo\" /></a> </p>",
