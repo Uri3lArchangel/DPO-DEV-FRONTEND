@@ -1,0 +1,10 @@
+.landscape {
+    background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.card {
+    background: rgba(0, 0, 0,0.2) !important;
+}

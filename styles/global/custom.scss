@@ -1,0 +1,105 @@
+@import 'colors';
+
+.ant-card {
+    border-radius: 10px !important;
+    .ant-card-actions {
+        background-color: transparent !important;
+    }
+    &.option  {
+        .ant-card-meta-title {
+            font-weight: bold;
+            font-size: 22px;
+        }
+        .ant-card-meta-description {
+            font-size: 16px;
+        }
+        .ant-card-options{
+            background-color: black !important;
+        }
+    }
+}
+// tabs customization
+
+.ant-tabs-tab {
+    background-color: $green-color !important;
+    color: $white-color !important;
+    &.ant-tabs-tab-active {
+        border-color: $green-color !important;
+        border-bottom-color: white !important;
+        background-color: $white-color !important;
+        .ant-tabs-tab-btn {
+            color: $green-color !important;
+        }
+    }
+}
+
+//button customization
+
+.ant-btn-primary {
+    border-color: $green-color !important;
+    background: $green-color !important;
+    &.ant-btn-background-ghost {
+        background: transparent !important;
+        color: $green-color !important;
+    }
+    &[disabled] {
+        background: #f5f5f5 !important;
+        border-color: #d9d9d9 !important;
+    }
+}
+
+a:hover {
+    color: $green-color !important;
+}
+
+li {
+    &.ant-menu-submenu:hover  {
+        &:after {
+            border-bottom: 2px solid $green-color !important;
+        }
+        .ant-menu-submenu-title {
+            color: $green-color !important;
+        }
+    }
+    &.ant-menu-item-selected:after {
+        border-bottom: 2px solid $green-color !important;
+    }
+    &.ant-menu-item:hover:after {
+        border-bottom: 2px solid $green-color !important;
+    }
+    &.ant-menu-item-selected {
+        span a{
+            color: $green-color !important;
+        }
+    }
+    &.ant-menu-item:hover {
+        .ant-menu-item-icon {
+            color: $green-color !important;
+        }
+    }
+}
+
+.site-form-item-icon {
+    color: rgba(0, 0, 0, 0.25) !important;
+}
+
+//.ant-card-bordered {
+//    border-color: $green-color !important;
+//}
+
+//.ant-card-actions {
+//    border-top: 1px solid $green-color !important;
+//}
+
+//.ant-checkbox-checked .ant-checkbox-inner {
+//    background-color: $green-color !important;
+//    border-color: $green-color !important;
+//}
+//
+//.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+//.ant-checkbox:hover .ant-checkbox-inner,
+//.ant-checkbox-input:focus+.ant-checkbox-inner {
+//    border-color: $green-color !important;
+//}
+
+

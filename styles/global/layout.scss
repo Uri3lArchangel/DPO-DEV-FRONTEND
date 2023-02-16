@@ -1,0 +1,123 @@
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+
+
+$displays: block, flex, inline-block, inline;
+
+@each $display in $displays {
+  .d-#{$display} {
+    display: #{$display} !important;
+  }
+}
+
+$justifies: space-between, space-around, center, flex-start, flex-end;
+
+@each $justify in $justifies {
+  .justify-content-#{$justify} {
+    justify-content: #{$justify} !important;
+  }
+}
+
+$aligns: start, center, end;
+
+@each $align in $aligns {
+  .align-items-#{$align} {
+    align-items: #{$align} !important;
+  }
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.f-right {
+  float: right !important;
+}
+$textpositions: left, center, right;
+
+@each $textposition in $textpositions {
+  .text-#{$textposition} {
+    text-align: #{$textposition} !important;
+  }
+}
+
+.vh-100 {
+  height: 100vh !important;
+}
+
+.vw-100 {
+  width: 100vw !important;
+}
+
+.top-0 {
+  top: 0 !important;
+}
+
+
+.left-0 {
+  left: 0 !important;
+}
+
+$positions: absolute, relative, sticky;
+
+@each $position in $positions {
+  .p-#{$position} {
+    position: #{$position} !important;
+  }
+}
+
+
+@for $i from 1 through 40 {
+  .z-#{$i} {
+    z-index: #{$i} !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  $temp: calc(#{$i} / 10);
+  .o-#{$i} {
+    opacity: #{$temp};
+  }
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+$green-color: rgb(65, 168, 95);
+$red-color: rgba(232, 54, 48,0.95);
+$dark-color: rgb(96, 125, 139);
+$black-color: black;
+$white-color: white;
+.c-green {
+  color: $green-color !important;
+}
+
+.c-red {
+  color: $red-color !important;
+}
+
+.c-white {
+  color: $white-color !important;
+}
+
+.c-black {
+  color: $black-color !important;
+}
+
+.bg-green {
+  background: $green-color !important;
+}
+
+.bg-red {
+  background-color: $red-color !important;
+}
+
+.bg-white {
+  background: $white-color !important;
+}
+
+.bg-dark {
+  background: $dark-color !important;
+}
+

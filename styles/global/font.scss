@@ -1,0 +1,15 @@
+$font-sizes: 10, 14, 16, 18, 20, 24, 28, 32, 36, 40, 42, 44, 48, 52, 80;
+
+@each $font-size in $font-sizes {
+    .font-#{$font-size} {
+        font-size: #{$font-size}px !important;
+    }
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+
+
+

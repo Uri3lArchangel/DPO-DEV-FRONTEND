@@ -1,0 +1,45 @@
+{
+  "name": "manzo-next",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.18.2",
+    "antd-img-crop": "^4.1.0",
+    "ethers": "^5.5.3",
+    "moment": "^2.29.1",
+    "next": "12.0.7",
+    "nvm": "^0.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-google-recaptcha-v3": "^1.9.7",
+    "sass": "^1.58.1"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  },
+  "engines": {
+    "node": "18.10.0",
+    "npm": "8.19.2"
+  },
+  "description": "<p align=\"center\">   <a href=\"https://directprivateoffers.ca/\" target=\"blank\"><img src=\"./public/assets/images/directprivateoffers-logo-bd.png\" width=\"320\" alt=\"J&D Landscaping Logo\" /></a> </p>",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uri3lArchangel/DPO-dev-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uri3lArchangel/DPO-dev-frontend/issues"
+  },
+  "homepage": "https://github.com/Uri3lArchangel/DPO-dev-frontend#readme"
+}
